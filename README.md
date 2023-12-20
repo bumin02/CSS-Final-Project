@@ -97,6 +97,6 @@ Upon calculating $R_G$ for each demographic, we can assess the fairness of the t
 2. <span style="color:yellow">**Analyze confounding variables**</span>: For instance, in the disparity between metropolitan and non-metropolitan demographics, we must consider confounding factors such as differences in SES and trending health conditions. Would adjusting the treatment accordingly fit under "fair" treatment? (internal validity)
 
 We obtain an average demographic parity of $0.41497$, calculated with:
-$$ \bar{x} = \displaystyle {\sum_i R_{G_i} \over N} $$
+$$ `\bar{x} = \displaystyle {\sum_i R_{G_i} \over N}` $$
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
