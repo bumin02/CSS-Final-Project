@@ -10,7 +10,8 @@
 
 ## Part 1
 
-<code style="color:skyblue">**Demographic Parity Table Code**</code>
+<!-- <span style="color:skyblue">**Demographic Parity Table Code**</span> -->
+${\color{skyblue} \space \text{Demographic Parity Table Code}}$
 
 <span style="color:white">A demographic parity table is a data analysis tool used to examine whether a particular outcome (the treatment variable "T") is distributed equitably across various demographic groups. Below is the code and respective output of a demographic parity table performed on data_2023.csv.</span>
 
