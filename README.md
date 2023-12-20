@@ -1,6 +1,6 @@
 # CSS Final Project
 
-<body style="background-color:#1F1F1F;">
+<!-- <body style="background-color:#1F1F1F;"> -->
 
 
 <!-- 1. A **demographic parity table** was 
@@ -10,7 +10,7 @@
 
 ## Part 1
 
-<span style="color:skyblue">**Demographic Parity Table Code**</span>
+<code style="color:skyblue">**Demographic Parity Table Code**</code>
 
 <span style="color:white">A demographic parity table is a data analysis tool used to examine whether a particular outcome (the treatment variable "T") is distributed equitably across various demographic groups. Below is the code and respective output of a demographic parity table performed on data_2023.csv.</span>
 
