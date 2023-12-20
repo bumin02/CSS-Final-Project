@@ -99,4 +99,4 @@ Upon calculating $R_G$ for each demographic, we can assess the fairness of the t
 We obtain an average demographic parity of $0.41497$, calculated with:
 $$ \bar{x} = \displaystyle {\sum_i R_{G_i} \over N} $$
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
