@@ -85,18 +85,18 @@ For each unique demographic $G$, we calculate the treatment rate given to the sa
 <!-- ```math
  R_G = N_G, T=1 / N_G
  ``` -->
-$$ R_G = { N_{G, T=1} \over N_G} $$
+$$R_G = { N_{G, T=1} \over N_G}$$
 
 Where, 
-- $ R_G :$ The rate at which the treatment was given to individuals in a particular group $G$
-- $ N_{G, T=1} :$ The number of individuals in group $G$ who were given the treatment
-- $ N_G :$ Total number of individuals in group $G$
+- $R_G :$ The rate at which the treatment was given to individuals in a particular group $G$
+- $N_{G, T=1} :$ The number of individuals in group $G$ who were given the treatment
+- $N_G :$ Total number of individuals in group $G$
 
 Upon calculating $R_G$ for each demographic, we can assess the fairness of the treatment allocation by looking for large disparities that exist within $G$. However, what does "fairness" mean and what quantitative methods can we employ to test the statistical significance of a disparity?
 1. <span style="color:yellow">**Confirm bias with statistical significance testing or other models**</span>: Conduct statistical tests (such as chi-square tests or z-tests for proportion differences) to determine whether observed differences in treatment rates across demographic groups are statistically significant or could have occurred by chance.
 2. <span style="color:yellow">**Analyze confounding variables**</span>: For instance, in the disparity between metropolitan and non-metropolitan demographics, we must consider confounding factors such as differences in SES and trending health conditions. Would adjusting the treatment accordingly fit under "fair" treatment? (internal validity)
 
 We obtain an average demographic parity of $0.41497$, calculated with:
-$$ `\bar{x} = \displaystyle {\sum_i R_{G_i} \over N}` $$
+$$\bar{x} = \displaystyle {\sum_i R_{G_i} \over N}$$
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}]
